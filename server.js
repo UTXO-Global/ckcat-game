@@ -13,5 +13,5 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use(express.static(path.join(__dirname))); // phục vụ toàn bộ CKCAT-GAME
+app.use(express.static(path.join(__dirname)));
 app.listen(8080, () => console.log("→ http://localhost:8080/index.html"));
