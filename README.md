@@ -4,16 +4,6 @@ A fun and engaging web-based game featuring an adorable cat character. Built wit
 
 # CKCAT-GAME – Local WebGL Runtime Guide
 
-> **Goal** Launch the Unity WebGL build (compressed with **gzip**) on any developer machine **without** the error
->
-> ```text
-> Unable to parse Build/ckc1.framework.js.gz
-> ```
->
-> We do this with a tiny Express server already included in the repo – no extra config files required.
-
----
-
 ## 1. Project Layout
 
 ```
